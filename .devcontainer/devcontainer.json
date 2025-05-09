@@ -1,0 +1,16 @@
+{
+  "name": "My Project",
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal",
+  "features": {
+    "ghcr.io/devcontainers/features/azure-cli:1": {},
+    "ghcr.io/robbert229/devcontainer-features/opentofu": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-azurecli",
+        "hashicorp.terraform"
+      ]
+    }
+  }
+}
